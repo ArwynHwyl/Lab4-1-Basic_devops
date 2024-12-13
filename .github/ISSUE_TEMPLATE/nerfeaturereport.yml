@@ -27,7 +27,7 @@ body:
         - New Feature
         - Improvement
         - Other
-      default: New Feature
+      default: 0 # Index of "New Feature" (the first option)
     validations:
       required: true
   - type: dropdown
@@ -40,6 +40,7 @@ body:
         - macOS
         - Linux
         - Other
+      default: 0 # Index of "Windows" (the first option)
     validations:
       required: true
   - type: textarea
